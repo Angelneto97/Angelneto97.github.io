@@ -13,7 +13,7 @@ body {
 .rk-container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: .25rem;
+  padding-left: .250rem;
   padding-right: .25rem;
 }
 @media (min-width: 40em) {
@@ -53,7 +53,7 @@ body {
 }
 
 .rk-header {
-  background-color: red;
+  background-color: rgb(155, 155, 155);
   position: relative;
   z-index: 5;
 }
@@ -163,7 +163,7 @@ body {
   width: 100px;
 }
 .rk-search input:focus + label {
-  color: #a0a0a0;
+  color: #952828;
 }
 
 .rk-navmobile {
@@ -324,7 +324,7 @@ body {
   position: absolute;
 }
 .rk-layout-ctrl:hover {
-  color: #a0a0a0;
+  color: #af2e2e;
 }
 .rk-layout-ctrl svg {
   height: 100%;
@@ -1164,9 +1164,9 @@ body {
 .rk-blog--columns .rk-tosquare:before {
   padding-top: 100%;
 }
-
+/*inicio de fotos qque estan en el menu*/
 .item-1 {
-  background-image: url("../img/project-1.jpg");
+  background-image: url("../img/taller-mecanico.jpeg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-1 {
@@ -1175,19 +1175,19 @@ body {
 }
 
 .item-2 {
-  background-image: url("../img/project-2.jpg");
+  background-image: url("../img/taller1.jpeg");
 }
 
 .item-3 {
-  background-image: url("../img/project-3.jpg");
+  background-image: url("../img/taller2.jpeg");
 }
 
 .item-4 {
-  background-image: url("../img/project-4.jpg");
+  background-image: url("../img/taller3.jpeg");
 }
 
 .item-5 {
-  background-image: url("../img/project-5.jpg");
+  background-image: url("../img/taller4.jpeg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-5 {
@@ -1196,7 +1196,7 @@ body {
 }
 
 .item-6 {
-  background-image: url("../img/project-6.jpg");
+  background-image: url("../img/taller5.jpeg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-6 {
@@ -1205,31 +1205,31 @@ body {
 }
 
 .item-7 {
-  background-image: url("../img/project-7.jpg");
+  background-image: url("../img/taller6.jpeg");
 }
 
 .item-8 {
-  background-image: url("../img/project-8.jpg");
+  background-image: url("../img/taller7.jpeg");
 }
 
 .item-9 {
-  background-image: url("../img/project-9.jpg");
+  background-image: url("../img/taller8.jpeg");
 }
 
 .item-10 {
-  background-image: url("../img/project-10.jpg");
+  background-image: url("../img/taller9.jpeg");
 }
 
 .item-11 {
-  background-image: url("../img/project-11.jpg");
+  background-image: url("../img/taller10.jpeg");
 }
 
 .item-12 {
-  background-image: url("../img/project-12.jpg");
+  background-image: url("../img/taller11.jpeg");
 }
 
 .item-13 {
-  background-image: url("../img/project-13.jpg");
+  background-image: url("../img/taller12.jpeg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-13 {
@@ -1241,13 +1241,13 @@ body {
 }
 
 .item-14 {
-  background-image: url("../img/project-14.jpg");
+  background-image: url("../img/taller13.jpeg");
 }
 
 .item-15 {
-  background-image: url("../img/project-15.jpg");
+  background-image: url("../img/taller14.jpeg");
 }
-
+/*termina fotos de menu*/
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .rk-items-cont {
     display: -webkit-box;
@@ -1348,11 +1348,37 @@ body {
 .inner-box-4 {
   margin-top: 6rem;
 }
-
+/*Fondo de portafolio item*/
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
-  background-position: 50% 100%;
-  background-size: 350%;
+  height: 100vh;
+  background-image:  url(../img/mecanico.jpg);
+  /*background-image: url("../img/taller-mecanico.jpeg");
+  /*background-position: 350% 10%;
+  background-size: 30%;*/
+  background-repeat: no-repeat ;
+  background-position: ce ;
+  background-size: cover ;
+   background-attachment:fixed ;
+  background-blend-mode: overlay;
+  
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  /*text-align: center;*/
+}
+.numero{
+  display: inline-block;
+  background-image: linear-gradient(to top, #5DADE2 0%,rgb(40, 116, 166)) ;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-weight: 700;
+  filter: drop-shadow(1px 1px 5px black) ;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-1 {
@@ -1571,7 +1597,7 @@ body {
 }
 
 .post-1 {
-  background-image: url("../img/post-1.jpg");
+  background-image: url("../img/fentanilo.jpg");
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-blog .post-1 {
@@ -1641,7 +1667,7 @@ body {
 }
 
 .post-1 {
-  background-image: url("../img/post-1.jpg");
+  background-image: url("../img/fentanilo.jpg");
 }
 @media (min-width: 40em) {
   .rk-blog--columns .post-1 {
@@ -1671,7 +1697,7 @@ body {
 }
 
 .post-5 {
-  background-image: url("../img/post-5.jpg");
+  background-image: url("../img/fentanilo-uso.jpg");
 }
 @media (min-width: 40em) {
   .rk-blog--columns .post-5 {
@@ -1958,7 +1984,7 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  font-size: .875rem;
+  font-size: .87rem;
   font-weight: 700;
   letter-spacing: .5px;
   list-style: none;
@@ -2170,3 +2196,17 @@ body {
 .rk-light-color {
   color: #787878;
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+  background: #d1e5ff;
+  
+}
+  
+  ::-webkit-scrollbar-thumb{
+  background: linear-gradient(#642bff, #ff22e6);
+  border-radius: 5px;
+  
+  }
